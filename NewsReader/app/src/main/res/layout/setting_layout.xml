@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLORBACK"
+    android:gravity="center"
+    >
+    <EditText
+        android:gravity="center"
+        android:padding="20dp"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:hint="Enter Name"
+        android:textColorHint="#DDDDDD"
+        android:typeface="monospace"
+        android:backgroundTint="@color/textcolor"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <EditText
+            android:gravity="center"
+            android:padding="20dp"
+        android:id="@+id/testtext"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/textcolor"
+
+       android:hint="Enter Text to Test"
+       android:textColorHint="#DDDDDD"
+            android:typeface="monospace"
+       android:backgroundTint="@color/textcolor" android:layout_marginRight="30dp"
+       />
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:background="@color/colorAccent"
+            android:textColor="@color/textcolor"
+            android:typeface="monospace"
+            android:onClick="testspeak" />
+
+    </LinearLayout>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+        <RadioButton
+            android:id="@+id/m"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/textcolor"
+
+            android:typeface="monospace"/>
+        <RadioButton
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:typeface="monospace"
+            android:checked="true"
+            android:textColor="@color/textcolor"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pitch"
+        android:textColor="@color/textcolor"
+        android:typeface="monospace"/>
+
+    <SeekBar
+        android:id="@+id/pitch"
+        style="@android:style/Widget.Material.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:progress="50"
+        android:progressBackgroundTint="@color/textcolor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speed"
+        android:textColor="@color/textcolor"
+        android:typeface="monospace"/>
+
+    <SeekBar
+        android:id="@+id/speed"
+        style="@android:style/Widget.Material.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:progress="50"
+        android:progressBackgroundTint="@color/textcolor" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Reset to Default "
+        android:background="@color/colorAccent"
+        android:textColor="@color/textcolor"
+        android:typeface="monospace"
+        android:onClick="reset"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@color/colorAccent"
+        android:textColor="@color/textcolor"
+        android:typeface="monospace"
+        android:onClick="save" />
+</LinearLayout>
