@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/samplelayout"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_centerVertical="true"
+            android:id="@+id/userurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter URL"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/search"
+
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_alignParentRight="true"
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search_black_24dp"
+            android:layout_margin="10dp"
+            />
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_above="@id/Download"
+        android:id="@+id/container"
+        android:layout_below="@id/samplelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+        <Button
+            android:textColor="@android:color/white"
+            android:background="@color/colorAccent"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Download"
+            android:layout_above="@id/adView"
+            android:layout_margin="10dp"
+            android:id="@+id/Download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5556989253157684/2227886248">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</RelativeLayout>

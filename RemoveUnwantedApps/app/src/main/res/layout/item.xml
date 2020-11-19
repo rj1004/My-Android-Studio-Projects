@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:padding="20dp">
+    <ImageView
+        android:layout_alignParentLeft="true"
+        android:id="@+id/icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/text"
+        android:paddingLeft="20dp"
+        android:layout_centerVertical="true"
+        android:text="Xender"
+        android:layout_toLeftOf="@id/delete"
+        android:layout_toRightOf="@id/icon"
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:background="@drawable/ic_trash"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/delete"
+        android:layout_width="24dp"
+        android:layout_height="24dp"/>
+
+</RelativeLayout>

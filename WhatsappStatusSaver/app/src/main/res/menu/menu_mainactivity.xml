@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/loadstatus"
+        android:title="Load Status from Whatsapp"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share App"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/rate"
+        android:title="Rate App"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/dev"
+        android:title="Developer"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_developer_mode_black_24dp"/>
+
+</menu>

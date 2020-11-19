@@ -1,0 +1,14 @@
+$ [code] \
+
+
+do -toast [text]
+do -speak [text]
+do -timer [number in sec]
+do -download -ytb [link] -[itag]
+do -open -app [name]
+do -open -web [link]
+do -open -web -google [words]
+do -download [url]
+do -list -itag
+do -glance [time in sec]
+

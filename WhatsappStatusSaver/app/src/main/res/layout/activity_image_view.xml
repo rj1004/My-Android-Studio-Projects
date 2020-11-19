@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewActivity"
+    android:background="@android:color/black">
+
+
+
+    <Button
+        android:id="@+id/photoclose"
+        android:background="@drawable/ic_close_black_24dp"
+
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="TODO" />
+    <ImageView
+        android:layout_above="@id/lay"
+        android:layout_below="@id/photoclose"
+        android:id="@+id/photoview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/lay"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:contentDescription="TODO"
+            android:id="@+id/photodownload"
+            android:background="@drawable/ic_file_download_black_24dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:contentDescription="TODO"
+            android:id="@+id/photoshare"
+            android:background="@drawable/ic_share_black_24dp"
+            android:layout_margin="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

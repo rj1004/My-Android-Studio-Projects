@@ -1,0 +1,10 @@
+dependancy==implementation 'com.google.android.gms:play-services-ads:19.1.0'
+<meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5556989253157684~5430007928"/>
+
+id===
+appid=ca-app-pub-5556989253157684~5430007928
+banner==ca-app-pub-5556989253157684/2705085314
+inter=ca-app-pub-5556989253157684/2513513621
+

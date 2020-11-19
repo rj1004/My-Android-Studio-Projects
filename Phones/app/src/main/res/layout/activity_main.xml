@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+   <Toolbar
+       android:padding="5dp"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/colorPrimary">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_vertical"
+          >
+
+         <TextView
+             android:layout_alignParentLeft="true"
+             android:text="Phones"
+             android:textColor="@color/background"
+             android:fontFamily="monospace"
+             android:textSize="20dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"/>
+
+         <Button
+             android:id="@+id/devbtn"
+             android:layout_width="30dp"
+             android:layout_height="30dp"
+             android:layout_marginRight="10dp"
+             android:layout_alignParentRight="true"
+             android:background="@drawable/developer"
+             android:gravity="center" />
+      </RelativeLayout>
+   </Toolbar>
+   <EditText
+       android:background="@color/background"
+       android:id="@+id/search"
+       android:hint="Search"
+       android:padding="20dp"
+       android:textColor="@color/text"
+       android:fontFamily="monospace"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+
+   <LinearLayout
+       android:layout_margin="0dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+
+       >
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/recent"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/recent"
+          android:layout_marginRight="30dp"
+          />
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/refresh"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/ref"
+          android:layout_marginRight="30dp"
+          />
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/addcontact"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="30dp"
+          android:src="@drawable/add"/>
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+          android:id="@+id/dial"
+          android:layout_margin="5dp"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/dial"
+          android:backgroundTint="@color/colorPrimary"/>
+
+
+   </LinearLayout>
+
+
+   <ListView
+       android:id="@+id/lv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       />
+
+
+</LinearLayout>

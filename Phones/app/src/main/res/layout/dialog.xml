@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp">
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/dname"
+        android:text="Rahul"
+        android:fontFamily="monospace"
+        android:textColor="@color/background"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:background="@color/background"
+        android:padding="10dp"
+        android:id="@+id/dno"
+        android:text="9157755527"
+        android:fontFamily="monospace"
+        android:textColor="@color/text"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/dcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/call"
+        android:layout_margin="16dp" />
+
+
+</LinearLayout>

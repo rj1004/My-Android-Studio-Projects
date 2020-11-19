@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="Help"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Scroll Down To Get Detailed Help"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Getting Started  ?"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="If Your first Time To This App Then You Have to accept Storage permission and it is only for storing Stories of whatsaoo to your internal Storage."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="How To Load and Download Whatsapp Status Photo And Video..?"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="You can See Two Tabs named Like Photos and Videos.By tapping each tab you can find Media.For Loading You can go to drop down menu which is at the top and inside it you can find option of load whatsapp status..\n\n By launching Whatsapp ,tap on Stories tab and view all stories which you want to download..Then here You Can Find all the Photos and videos in Grid..\n\n For Download open the image or video ..Here You can find two options like share and download ..\n\n Sharing Button will directly share media to any app including Whatsapp statuses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="where I can found my download Media ..?"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="After downloading media popup will be generated for path of storage..Or you can directly visit the folder name  ...Whatsapp Statuses.... in Internal Storage.."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Features Use.."
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="Swipe Down To Refresh : swipe down on screen to refresh your whatsapp statuses..\n\nRating:on drop down list menu on the top of screen ,you can find option for rating ..here you can rate this app..\n\nShare App Request Message : You can share the text msg of developer contact to any person which you want to be download it..."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:text="Developer Contact.."
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:padding="10dp"
+                android:text="On selecting option of Developer,You can find Detail of name and contact on screen or You can Call me directly Or send Email to me as i give you a Buttons For thst..Thanks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="--By Rahul's Company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

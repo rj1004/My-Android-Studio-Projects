@@ -1,0 +1,98 @@
+{
+  "apps":[
+    {
+      "downloads":"100+",
+      "iconurl":"https://rj1004.github.io/jsondata/AppIcons/phones.png",
+      "id":1,
+      "name":"Phones",
+      "rating":"4.5",
+      "size":"12MB",
+      "sizenum":12,
+      "type":"Tools",
+      "reviews":"",
+      "sc1url": "",
+      "sc2url": "",
+      "sc3url": "",
+      "sc4url":"",
+      "sc5url": "",
+      "about": "",
+      "userreviews": [
+        {
+          "reviewname":"",
+          "reviewdetail": ""
+        },
+        {
+          "reviewname":"",
+          "reviewdetail": ""
+        },
+        {
+          "reviewname":"",
+          "reviewdetail": ""
+        }
+      ]
+    },
+
+
+    {
+      "downloads":"100+",
+      "iconurl":"https://rj1004.github.io/jsondata/AppIcons/newsreader.png",
+      "id":2,
+      "name":"News Reader",
+      "rating":"4",
+      "size":"12MB",
+      "sizenum":12,
+      "type":"Social & News"
+    },
+    {
+      "downloads":"100+",
+      "iconurl":"https://rj1004.github.io/jsondata/AppIcons/takebook.png",
+      "id":3,
+      "name":"TakeBook",
+      "rating":"4.5",
+      "size":"12MB",
+      "sizenum":12,
+      "type":"Social"
+    },
+    {
+      "downloads":"100+",
+      "iconurl":"https://rj1004.github.io/jsondata/AppIcons/whatsapp.png",
+      "id":4,
+      "name":"Whatsapp status saver",
+      "rating":"5",
+      "size":"12MB",
+      "sizenum":12,
+      "type":"Social"
+    },
+    {
+      "downloads":"100+",
+      "iconurl":"https://rj1004.github.io/jsondata/AppIcons/insta.png",
+      "id":5,
+      "name":"Insta post saver",
+      "rating":"4",
+      "size":"12MB",
+      "sizenum":12,
+      "type":"Social"
+    },
+    {
+      "downloads":"100+",
+      "iconurl":"https://rj1004.github.io/jsondata/AppIcons/breakingnews.png",
+      "id":7,
+      "name":"Breaking News",
+      "rating":"4.5",
+      "size":"12MB",
+      "sizenum":12,
+      "type":"Social & News"
+    },
+    {
+      "downloads":"100+",
+      "iconurl":"https://rj1004.github.io/jsondata/AppIcons/calc.png",
+      "id":6,
+      "name":"CalC",
+      "rating":"4",
+      "size":"12MB",
+      "sizenum":12,
+      "type":"Tools"
+    }
+  ],
+  "total":7
+}

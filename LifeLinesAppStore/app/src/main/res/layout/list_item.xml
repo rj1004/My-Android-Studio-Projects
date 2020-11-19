@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/app_icon_iv"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@raw/phones"
+            android:layout_width="60dp"
+            android:layout_height="60dp"/>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+
+            android:layout_toRightOf="@id/app_icon_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/name"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="10dp"
+                android:text="Phones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <RelativeLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/type"
+                android:textColor="@color/text"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="10dp"
+                android:text="Social"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="10sp"
+                android:padding="5dp"
+                android:background="@drawable/button2_back"
+                android:id="@+id/devcom"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_marginLeft="10dp"
+                android:text="Rahul's &amp; Company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <LinearLayout
+
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:drawableEnd="@drawable/ic_star_black_24dp"
+                    android:id="@+id/rating"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginLeft="10dp"
+                    android:text="4.5 *"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_star_black_24dp" />
+                <TextView
+                    android:id="@+id/size"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginLeft="10dp"
+                    android:text="8.9MB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/down"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:layout_marginLeft="10dp"
+                    android:text="1M+ Downloads"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

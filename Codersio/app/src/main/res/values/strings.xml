@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CodePath</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="lang">
+
+        <item>C</item>
+        <item>Cpp</item>
+        <item>Cpp14</item>
+        <item>Csharp</item>
+        <item>Java</item>
+        <item>Perl</item>
+        <item>Php</item>
+        <item>Python</item>
+        <item>Python3</item>
+        <item>Scala</item>
+
+    </string-array>
+</resources>

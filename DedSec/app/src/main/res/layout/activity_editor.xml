@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Editor"
+    android:background="#000000">
+    <EditText
+        android:textCursorDrawable="@drawable/cursor"
+        android:id="@+id/codeedit"
+        android:background="@null"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_list_alt_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="codelist"
+        />
+
+</RelativeLayout>

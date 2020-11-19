@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vtube Downloader</string>
+    <string-array name="list">
+        <item>360p mp4</item>
+        <item>720p mp4</item>
+        <item>1080p mp4</item>
+        <item>3072p mp4</item>
+        <item>48kbps mp3</item>
+        <item>128kbps mp3</item>
+        <item>256kbps mp3</item>
+    </string-array>
+</resources>

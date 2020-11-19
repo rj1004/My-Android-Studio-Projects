@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/black"
+    android:keepScreenOn="true">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/phones_icon"
+        android:src="@raw/phones"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/insta_icon"
+        android:layout_toRightOf="@id/phones_icon"
+        android:src="@raw/insta"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/news_icon"
+        android:layout_below="@id/phones_icon"
+        android:src="@raw/newsreader"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/take_icon"
+        android:layout_toRightOf="@id/news_icon"
+        android:layout_below="@id/insta_icon"
+        android:src="@raw/takebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/main_icon"
+        android:src="@raw/store"
+        android:layout_width="90dp"
+        android:layout_height="90dp"/>
+
+    <LinearLayout
+        android:id="@+id/text_anim"
+        android:layout_marginBottom="15dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:text="AppStore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Rahul's &amp; Company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
